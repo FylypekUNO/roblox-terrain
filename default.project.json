@@ -1,0 +1,73 @@
+{
+  "name": "roblox-terrain",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/shared"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [0.38823, 0.37254, 0.38823],
+          "Locked": true,
+          "Position": [0, 72.5, 0],
+          "Size": [64, 16, 64],
+          "Transparency": 0.9
+        }
+      },
+      "TheCube": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [0.384, 0.369, 0.384],
+          "Position": [17, 86, 0],
+          "Size": [10, 10, 10],
+          "Transparency": 0.85,
+          "CanCollide": false,
+          "CanTouch": false,
+          "CanQuery": false
+        }
+      },
+      "CubeFoundation": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [0.5843, 0.5686, 0.5843],
+          "Position": [17, 80.5, 0],
+          "Size": [11, 1, 11]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
