@@ -4,7 +4,16 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$path": "src/shared"
+      "$path": "src/shared",
+      "MeshParts": {
+        "$className": "Folder",
+        "OneSidedTriangle": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://125121458680630"
+          }
+        }
+      }
     },
 
     "ServerScriptService": {
