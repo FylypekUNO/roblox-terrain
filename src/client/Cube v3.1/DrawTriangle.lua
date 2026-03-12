@@ -1,7 +1,7 @@
 -- Source: https://create.roblox.com/store/asset/5656315743
 -- Edited by @ffiilliippfff for better readability and to remove deprecated properties
 
-local MESH_ID = "rbxassetid://100362370395611"
+local MESH_ID = "rbxassetid://115250631411867"
 local MESH_THICKNESS = 0
 
 local function drawTriangle(
