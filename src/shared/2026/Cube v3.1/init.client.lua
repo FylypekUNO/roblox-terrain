@@ -3,10 +3,10 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
-local drawPoint = require(script.DrawPoint)
-local drawLine = require(script.DrawLine)
+local drawPoint = require(ReplicatedStorage["2026"].DrawPoint)
+local drawLine = require(ReplicatedStorage["2026"].DrawLine)
 local drawTriangle = require(ReplicatedStorage["2026"].DrawTriangle)
-local drawLabel = require(script.DrawLabel)
+local drawLabel = require(ReplicatedStorage["2026"].DrawLabel)
 local Array = require(ReplicatedStorage["2026"].Array)
 local Vector3Util = require(ReplicatedStorage["2026"].Vector3)
 local Point = require(script.Point)
