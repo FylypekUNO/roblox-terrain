@@ -44,10 +44,6 @@ FrameFolder.Name = "Frame"
 FrameFolder.Parent = workspace
 
 while RunService.Heartbeat:Wait() do
-  if points[2].Density == 1 then
-    continue
-  end
-
   FrameFolder:ClearAllChildren()
 
   for _, point in ipairs(points) do

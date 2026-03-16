@@ -7,10 +7,16 @@
       "$path": "src/shared",
       "MeshParts": {
         "$className": "Folder",
-        "OneSidedTriangle": {
+        "OneSidedTriangleA": {
           "$className": "MeshPart",
           "$properties": {
             "MeshId": "rbxassetid://125121458680630"
+          }
+        },
+        "OneSidedTriangleB": {
+          "$className": "MeshPart",
+          "$properties": {
+            "MeshId": "rbxassetid://98747107548446"
           }
         }
       }
