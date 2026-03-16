@@ -1,0 +1,8 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": true,
+    "RequiresHandle": true,
+    "Grip": [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+  }
+}

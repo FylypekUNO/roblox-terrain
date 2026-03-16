@@ -4,22 +4,7 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$path": "src/shared",
-      "MeshParts": {
-        "$className": "Folder",
-        "OneSidedTriangleA": {
-          "$className": "MeshPart",
-          "$properties": {
-            "MeshId": "rbxassetid://125121458680630"
-          }
-        },
-        "OneSidedTriangleB": {
-          "$className": "MeshPart",
-          "$properties": {
-            "MeshId": "rbxassetid://98747107548446"
-          }
-        }
-      }
+      "$path": "src/shared"
     },
 
     "ServerScriptService": {
@@ -30,6 +15,10 @@
       "StarterPlayerScripts": {
         "$path": "src/client"
       }
+    },
+
+    "StarterPack": {
+      "$path": "src/starterPack"
     },
 
     "Workspace": {
